@@ -766,8 +766,32 @@ body {
 .style-3 section h3 {
 	margin: 1em 0 .5em;
 }
+.header1 {
+	background-color: #645862;
+	background-image: url(../images/light-tl.svg),
+										url(../images/light-tr.svg),
+										url(../images/overlay.png),
+										url(../images/banner-photo.png);
+	background-position: top left, top right, top left, bottom center;
+	background-attachment: scroll, scroll, scroll, fixed;
+	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+	background-size: 25em, 25em, auto, cover;
+	color: #fff;
 
+	text-align: center;
 
+	padding-top: 16em;
+	padding-bottom: 6em;
+	margin: 0;
+	overflow: hidden;
+	transition: transform .4s ease;
+}
+
+.header1:hover{
+	transform: scale(1.1) rotate(.02deg);
+	/* -webkit-transform: rotate(.3deg);
+	transform: rotate(.3deg); */
+}
 /* CALL TO ACTION
 --------------------------------------------*/
 #call-to-action {
