@@ -783,12 +783,14 @@ body {
 	padding-top: 16em;
 	padding-bottom: 6em;
 	margin: 0;
+}
+.emg1 {
 	overflow: hidden;
 	transition: transform .4s ease;
 }
 
-.header1:hover{
-	transform: scale(1.1) rotate(.02deg);
+.emg1:hover{
+	transform: scale(1.2) rotate(1deg);
 	/* -webkit-transform: rotate(.3deg);
 	transform: rotate(.3deg); */
 }
