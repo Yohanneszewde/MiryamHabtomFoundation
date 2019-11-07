@@ -46,6 +46,8 @@ function makeNormal() {
     myVideo.width = 720; 
 } 
 
+
+
 /**
  * FUNCTION "FUNCTION EXISTS ?"
  * --------------------------------------------------------------
